@@ -3,10 +3,20 @@
     text-underline-offset: 2rem;
 }
 
-.footer_section {
-    background-color: #191a1d;
+.about_info {
+    text-align: justify;
     color: white;
-    clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 100%)
+    font-size: 2rem;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.about_info p:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.footer_section {
+    color: white;
 }
 
 .brand_heading {
@@ -16,11 +26,25 @@
 }
 
 .companies_info {
-    background-color: #e4f5f2;
+    /* background-color: #e4f5f2; */
 }
 
 @media screen and (max-width: 600px) {
     .brand_heading { 
         width: auto;
     }
+}
+
+.vertical-timeline-element--date {
+    color: white;
+    font-size: 2rem !important;
+    top: -4px !important;
+}
+
+.vertical-timeline-company-name {
+    font-size: 2rem !important;
+}
+
+.vertical-timeline-company-location {
+    font-size: 1.6rem !important;
 }

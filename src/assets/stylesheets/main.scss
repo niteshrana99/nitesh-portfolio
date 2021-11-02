@@ -1,8 +1,8 @@
 
 //
 @import "./base/utils";
-@import "./base/typography";
 @import "./abstracts/variables";
+@import "./base/typography";
 @import "./abstracts//mixins";
 @import "./base/animations";
 @import "./base/base";
@@ -21,3 +21,5 @@
 @import "./components/export";
 @import "./components//card";
 @import "./components/blog";
+@import "./components/projects";
+@import "./components/tag";

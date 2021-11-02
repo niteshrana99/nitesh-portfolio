@@ -23,13 +23,6 @@
         margin-bottom: 3rem;
     }
 
-    &_photo_container {
-        background: $color-black;
-        width: 36rem;
-        height: 32rem;
-     
-    }
-
     &_photo {
         width: 30rem;
         height: 30rem;
@@ -40,31 +33,26 @@
 
     &_heading {
         font-size: 6.4rem;
-        font-weight: 400;
+        background-image: $primary-gradient;
+        -webkit-background-clip: text;
+        color: transparent;
+        font-weight: 700;
     }
 }
 
 .round_btn {
-    border-radius: 1000px;
-    background: $color-blue;
-    border:none;
+    border-radius: 10px;
+    background: transparent;
     padding: 18px 48px;
     font-size: 24px;
-    color: $color-white;
     font-weight: 500;
     transition: all ease 0.4s;
     cursor: pointer;
+    border: 2px solid $primary-color;
+    color: $primary-color;
 }
 
 .round_btn:hover {
-    background: transparent;
-    transform: scale(1.075);
-    box-shadow: inset 0 0 0 2px $color-blue;
-}
-
-.round_btn_article:hover {
-    background: transparent;
-    color: black;
-    transform: scale(1.075);
-    box-shadow: inset 0 0 0 2px $color-blue;
+    background-image:  $primary-gradient;
+    color: rgba(0,0,0,$tw-text-opacity);
 }

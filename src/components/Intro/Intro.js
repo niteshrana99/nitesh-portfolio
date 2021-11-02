@@ -4,8 +4,7 @@ import profilePhoto from '../../../src/assets/images/profile.jpeg'
 const Intro = () => {
 
     const gotoAboutMeSection = () => {
-        console.log(window.location.hash)
-        window.location.hash = "#section-about";
+        window.location.hash = "#about";
     }
     
 

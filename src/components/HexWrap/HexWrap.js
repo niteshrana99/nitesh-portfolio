@@ -47,52 +47,7 @@ const HexWrap = () => (
         </div>
         </div>
     </div>
-    // <div className="hex">
-    //     <div className="hex-item">
-    //         <div className="hexagon-wrapper">
-    //             <div className="hexagon">
-    //                 <i className="fa-facebook"></i>
-    //             </div>
-    //         </div>
-    //         <div className="hex-caption">
-    //              Fast
-    //           <p className="hexContainer_caption_desc">Fast load times and lag free interaction, my highest priority</p>   
-    //         </div>
-    //     </div>
-    //     <div className="hex-item">
-    //         <div className="hexagon-wrapper">
-    //             <div className="hexagon">
-    //                 <i className="fab fa-facebook"></i>
-    //             </div>
-    //         </div>
-    //         <div className="hex-caption">
-    //             Responsive
-    //             <p className="hexContainer_caption_desc">My layouts will work on any device, big or small.</p> 
-    //         </div>
-    //     </div>
-    //     <div className="hex-item">
-    //         <div className="hexagon-wrapper">
-    //             <div className="hexagon">
-    //                 <i className="fab fa-facebook"></i>
-    //             </div>
-    //         </div>
-    //         <div className="hex-caption">
-    //             Intuitive
-    //             <p className="hexContainer_caption_desc">Strong preference for easy to use, intuitive UX/UI.</p> 
-    //         </div>
-    //     </div>
-    //     <div className="hex-item">
-    //         <div className="hexagon-wrapper">
-    //             <div className="hexagon">
-    //                 <i className="fab fa-facebook"></i>
-    //             </div>
-    //         </div>
-    //         <div className="hex-caption">
-    //         Dynamic
-    //         <p className="hexContainer_caption_desc">Strong preference for easy to use, intuitive UX/UI.</p>
-    //         </div>
-    //     </div>
-    // </div>
+    
 )
 
 export default HexWrap

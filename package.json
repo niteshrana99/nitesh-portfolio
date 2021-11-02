@@ -1,7 +1,7 @@
 {
   "name": "portfolio-app",
   "version": "0.1.0",
-  "homepage": "https://niteshrana99.github.io/nitesh-portfolio/",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -15,6 +15,7 @@
     "react-icomoon": "^2.2.4",
     "react-multi-carousel": "^2.6.3",
     "react-scripts": "4.0.3",
+    "react-vertical-timeline-component": "^3.3.3",
     "recharts": "^2.0.9",
     "web-vitals": "^1.0.1"
   },

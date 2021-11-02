@@ -10,7 +10,9 @@ const Card = (props) => {
             <div className="card_heading">
                 <p className="heading_tertiary">{props.data.title}</p>
             </div>
-            <a href={props.data.link} target="_blank" className="btn-text">Read Article &rarr;</a>
+            {props.data.link ? <a href={props.data.link} target="_blank" className="btn-text">Read Article &rarr;</a> :""}
+            
+            {props.children}
         </div>
     )
 }

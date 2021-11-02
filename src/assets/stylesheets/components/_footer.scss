@@ -7,6 +7,11 @@
     align-content: center;
     padding: 14rem;
 
+    &_link {
+        color: white;
+        text-decoration: none;
+    }
+
     &_left {
         justify-self: center;
 
@@ -30,13 +35,26 @@
 
     &_list {
         list-style: none;
+        
         @include respond(tab-land) {
-            display: none;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            margin-top: 10rem;
         }
         
     }
 
     &_list-item:not(:last-child) {
         margin-bottom: 3rem;
+
+        @include respond(tab-land) {
+            margin-right: 1.2rem;
+        }
+
+        a {
+            color: $color-white;
+            text-decoration: none;
+        }
     }
 }

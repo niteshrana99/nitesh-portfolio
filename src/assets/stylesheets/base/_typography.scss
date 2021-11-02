@@ -7,13 +7,23 @@ body {
 .heading {
     &_primary {
         font-size: 5rem;
+        background-image: $primary-gradient;
+        -webkit-background-clip: text;
+        color: transparent;
+        font-weight: 700;
     }
 
     &_secondary {
         font-size: 3rem;
+        background-image: $primary-gradient;
+        -webkit-background-clip: text;
+        color: transparent;
     }
 
     &_tertiary {
         font-size: 2rem;
+        background-image: $primary-gradient;
+        -webkit-background-clip: text;
+        color: transparent;
     }
 }
