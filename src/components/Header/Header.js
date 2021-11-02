@@ -40,8 +40,8 @@ const Header = () => {
             <div className="header_menu">
                 <ul className="header_menu_list">
                     <li onClick={() => handleNavigationClick("about")} className="header_list_item">About</li>
-                    <li onClick={() => handleNavigationClick("career")} className="header_list_item">Career</li>
                     <li onClick={() => handleNavigationClick("projects")} className="header_list_item">Projects</li>
+                    <li onClick={() => handleNavigationClick("career")} className="header_list_item">Career</li>
                     <li onClick={() => handleNavigationClick("skills")} className="header_list_item">Skills</li>
                     <li onClick={() => handleNavigationClick("blog")} className="header_list_item">Blog</li>
                     <li onClick={() => handleNavigationClick("contact")} className="header_list_item">Contact</li>

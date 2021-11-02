@@ -3,7 +3,7 @@ import React from 'react'
 const Export = () => {
 
     const handleViewResume = () => {
-        window.open('https://drive.google.com/file/d/153CoO3Gz-_CTIjkf5oK7e1K5jxs9hU7y/view', '_blank');
+        window.open('https://drive.google.com/file/d/1__FBC0stei6BGX5kXYcIsUlc0hjtqBfX/view?usp=sharing', '_blank');
     }
     return (
         <div className="export">
